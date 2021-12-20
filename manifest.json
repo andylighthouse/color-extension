@@ -1,0 +1,14 @@
+{
+  "name": "Background Color",
+  "description" : "Use Chrome API V3 to build an extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action":{
+    "default_title": "Colors",
+    "default_popup": "popup.html"
+  },
+  "background":{
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"]
+}
